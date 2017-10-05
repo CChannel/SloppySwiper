@@ -8,7 +8,7 @@
 #import "SSWAnimator.h"
 #import "SSWDirectionalPanGestureRecognizer.h"
 
-@interface SloppySwiper() <UIGestureRecognizerDelegate, SSWAnimatorDelegate>
+@interface SloppySwiper() <SSWAnimatorDelegate>
 @property (weak, readwrite, nonatomic) UIPanGestureRecognizer *panRecognizer;
 @property (weak, nonatomic) IBOutlet UINavigationController *navigationController;
 @property (strong, nonatomic) SSWAnimator *animator;
